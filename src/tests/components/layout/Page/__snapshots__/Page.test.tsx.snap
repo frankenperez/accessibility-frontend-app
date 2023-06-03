@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests for <Page /> Renders with default props 1`] = `
+<div>
+  <div
+    class="css-1ud69te"
+  >
+    <header
+      class="css-1dviuwh"
+    >
+      <div
+        class="logo"
+      >
+        <img
+          alt="Customer Logo"
+          src="/customer-logo.svg"
+        />
+        <span>
+          Customer Logo
+        </span>
+      </div>
+      <div
+        class="user"
+      >
+        <div
+          class="MuiAvatar-root MuiAvatar-circular MuiAvatar-colorDefault avatar css-r1updj-MuiAvatar-root"
+        >
+          NS
+        </div>
+        <span
+          class="name"
+        >
+          Name Surname
+        </span>
+        <button
+          aria-label="Logout"
+          class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeSmall css-1gp9nik-MuiButtonBase-root-MuiIconButton-root"
+          tabindex="0"
+          type="button"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1jxdcj3-MuiSvgIcon-root"
+            data-testid="LogoutRoundedIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M5 5h6c.55 0 1-.45 1-1s-.45-1-1-1H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h6c.55 0 1-.45 1-1s-.45-1-1-1H5V5z"
+            />
+            <path
+              d="m20.65 11.65-2.79-2.79c-.32-.32-.86-.1-.86.35V11h-7c-.55 0-1 .45-1 1s.45 1 1 1h7v1.79c0 .45.54.67.85.35l2.79-2.79c.2-.19.2-.51.01-.7z"
+            />
+          </svg>
+          <span
+            class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </header>
+    <main />
+    <footer
+      class="css-ik1bx0"
+    >
+      <nav
+        class="navigation"
+      >
+        <ul>
+          <li>
+            <a
+              aria-current="page"
+              class="link active"
+              href="/"
+            >
+              Contact Us
+            </a>
+          </li>
+          <li>
+            <a
+              aria-current="page"
+              class="link active"
+              href="/"
+            >
+              Privacy Policy
+            </a>
+          </li>
+          <li>
+            <a
+              aria-current="page"
+              class="link active"
+              href="/"
+            >
+              Terms of Service
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </footer>
+  </div>
+</div>
+`;

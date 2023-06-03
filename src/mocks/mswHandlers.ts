@@ -1,0 +1,3 @@
+// Handlers
+
+export const mswHandlers = [];

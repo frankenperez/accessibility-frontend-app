@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests for <Footer /> Renders with default props 1`] = `
+<div>
+  <footer
+    class="css-ik1bx0"
+  >
+    <nav
+      class="navigation"
+    >
+      <ul>
+        <li>
+          <a
+            aria-current="page"
+            class="link active"
+            href="/"
+          >
+            Contact Us
+          </a>
+        </li>
+        <li>
+          <a
+            aria-current="page"
+            class="link active"
+            href="/"
+          >
+            Privacy Policy
+          </a>
+        </li>
+        <li>
+          <a
+            aria-current="page"
+            class="link active"
+            href="/"
+          >
+            Terms of Service
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </footer>
+</div>
+`;

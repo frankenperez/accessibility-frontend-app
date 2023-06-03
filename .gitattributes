@@ -1,0 +1,2 @@
+# By default all files always have LF line endings.
+* text=auto eol=lf

@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests for <Login /> Renders with default props 1`] = `
+<div>
+  <div
+    class="css-0"
+  >
+    Login
+  </div>
+</div>
+`;

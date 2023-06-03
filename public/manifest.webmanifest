@@ -1,0 +1,10 @@
+{
+  "short_name": "React Web App",
+  "name": "React Web App",
+  "start_url": ".",
+  "display": "standalone",
+  "icons": [
+    { "src": "/favicon/favicon-192.png", "type": "image/png", "sizes": "192x192" },
+    { "src": "/favicon/favicon-512.png", "type": "image/png", "sizes": "512x512" }
+  ]
+}

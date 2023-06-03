@@ -1,0 +1,20 @@
+{
+  "common": {
+    "error": "Error"
+  },
+  "error": {
+    "authentication": "Authentication error. Your session has expired, please login again.",
+    "forbidden": "You do not have permission to access to this service. Please contact support.",
+    "notAllowed": "The requested method is not allowed. Please contact support.",
+    "notFound": "The requested service does not exist, was deleted or moved. Please contact support.",
+    "server": "There has been an internal server error. Please contact support."
+  },
+  "footer": {
+    "contact": "Contact Us",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  },
+  "home": {
+    "title": "React Web App"
+  }
+}
