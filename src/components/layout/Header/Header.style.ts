@@ -13,6 +13,11 @@ const StyledHeader = styled.header`
     justify-content: flex-start;
     align-items: center;
     gap: 12px;
+
+    img {
+      max-width: 3rem;
+      height: auto;
+    }
   }
 
   .user {

@@ -11,6 +11,9 @@ import { useTranslation } from "react-i18next";
 // Styles
 import StyledHeader from "./Header.style";
 
+// Images
+import logo from "assets/a11y.svg";
+
 // Footer
 export default function Header(): JSX.Element {
   const { t } = useTranslation("app");
@@ -29,8 +32,8 @@ export default function Header(): JSX.Element {
   return (
     <StyledHeader>
       <div className="logo">
-        <img src="/logo.svg" alt="Customer Logo" />
-        <span>Project Name</span>
+        <img src={logo} alt="Accessibility Logo" />
+        <span>Web Accessibility Project</span>
       </div>
       <div className="user">
         <MuiAvatar className="avatar" {...stringAvatar("Name", "Surname")} />

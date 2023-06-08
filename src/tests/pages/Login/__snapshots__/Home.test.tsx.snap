@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests for <Home /> Renders with default props 1`] = `
+<div>
+  <div
+    class="css-13kl4hw"
+  >
+    <h1>
+      The greater the diversity, the greater the perfection
+    </h1>
+    <div
+      class="gallery"
+    >
+      <img
+        src="img10029747.webp"
+      />
+      <img
+        src="img7188938.jpeg"
+      />
+    </div>
+  </div>
+</div>
+`;

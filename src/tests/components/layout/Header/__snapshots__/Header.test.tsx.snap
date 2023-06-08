@@ -3,17 +3,17 @@
 exports[`Tests for <Header /> Renders with default props 1`] = `
 <div>
   <header
-    class="css-1dviuwh"
+    class="css-vrfcne"
   >
     <div
       class="logo"
     >
       <img
-        alt="Customer Logo"
-        src="/customer-logo.svg"
+        alt="Accessibility Logo"
+        src="a11y.svg"
       />
       <span>
-        Customer Logo
+        Web Accessibility Project
       </span>
     </div>
     <div
@@ -25,12 +25,12 @@ exports[`Tests for <Header /> Renders with default props 1`] = `
         NS
       </div>
       <span
-        class="name"
+        class="username"
       >
         Name Surname
       </span>
       <button
-        aria-label="Logout"
+        aria-label="action.logout"
         class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeSmall css-1gp9nik-MuiButtonBase-root-MuiIconButton-root"
         tabindex="0"
         type="button"
