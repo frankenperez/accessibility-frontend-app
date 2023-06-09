@@ -3,6 +3,7 @@ import React, { PropsWithChildren } from "react";
 
 // Testing Library
 import { render, RenderOptions } from "@testing-library/react";
+import { configureAxe, toHaveNoViolations } from "jest-axe";
 
 // Router
 import { BrowserRouter } from "react-router-dom";
@@ -32,13 +33,7 @@ interface ExtendedRenderOptions extends Omit<RenderOptions, "queries"> {
   route?: string;
 }
 
-const renderWithProviders = (
-  ui: React.ReactElement,
-  {
-    route = "/",
-    ...renderOptions
-  }: ExtendedRenderOptions = {}
-) => {
+const renderWithProviders = (ui: React.ReactElement, { route = "/", ...renderOptions }: ExtendedRenderOptions = {}) => {
   const Wrapper = ({ children }: PropsWithChildren): JSX.Element => {
     return (
       <I18nextProvider i18n={i18next}>
@@ -56,4 +51,14 @@ const renderWithProviders = (
   return { ...render(ui, { wrapper: Wrapper, ...renderOptions }) };
 };
 
-export { renderWithProviders };
+// Extend Jest expect with Axe tool
+expect.extend(toHaveNoViolations);
+
+// Jest-axe Utils
+// Runner options for axe-core
+// https://www.deque.com/axe/core-documentation/api-documentation/#options-parameter
+const runAxe = configureAxe({
+  runOnly: ["wcag2a", "wcag21a"]
+});
+
+export { renderWithProviders, runAxe };
