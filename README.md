@@ -15,6 +15,8 @@ Best Practices and Automated Accessibility Testing
     - [Implementation](#implementation)
     - [Running tests](#running-tests)
 
+> [Download PPT](./accesibilidad-opensouthcode-23.pdf)
+
 ## Pre-Requisites
 
 Please ensure that **Node.js** 18.16 LTS as runtime environment and **yarn** as package manager are installed in your machine.
@@ -169,3 +171,5 @@ The test will fail if the renderComponent method is updated by passing an undefi
 > https://dequeuniversity.com/rules/axe/4.5/image-alt?application=axeAPI
 
 Fix the accessibility issues for the images and run again to check that tests are passed successfully and verify that the errors have been fixed.
+
+> [Download PPT](./accesibilidad-opensouthcode-23.pdf)
